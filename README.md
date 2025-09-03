@@ -6,7 +6,7 @@ In logistic regression, the dependent variable is binary (i.e., it can take on o
 
 The logistic regression model uses a logistic function (also known as the sigmoid function) to map the input values of the independent variables to a value between 0 and 1, which represents the probability of the dependent variable being 1. The logistic function is defined as:
 
-css Copy code p = 1 / (1 + e^(-z)) where p is the predicted probability of the dependent variable being 1, e is the base of the natural logarithm, and z is the linear combination of the independent variables.
+ p = 1 / (1 + e^(-z)) where p is the predicted probability of the dependent variable being 1, e is the base of the natural logarithm, and z is the linear combination of the independent variables.
 
 The logistic regression model estimates the values of the coefficients of the independent variables that maximize the likelihood of observing the data given the model. This is typically done using maximum likelihood estimation or gradient descent optimization.
 
